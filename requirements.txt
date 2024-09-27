@@ -1,5 +1,8 @@
 --upgrade pip
---only-binary=:all: numpy scipy scikit-learn
-numpy==1.26.4
-scipy==1.11.4
-scikit-learn==1.3.2
+streamlit==1.23.1
+pandas==1.3.5
+numpy==1.21.6
+rdkit==2022.9.3
+pubchempy==1.0.4
+scikit-learn==1.0.2 --only-binary=scikit-learn
+xgboost==1.6.2
